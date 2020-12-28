@@ -1,0 +1,15 @@
+[package]
+name = "newmq"
+version = "0.1.0"
+authors = ["exfly <exflyg@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+log = "0.4"
+env_logger = "0.6"
+ws="0.9"
+url = "2.1"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
